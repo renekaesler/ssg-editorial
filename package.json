@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "LANG=en npx @xylit/ssg serve",
+    "build": "LANG=en npx @xylit/ssg build"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4"
+  },
+  "devDependencies": {
+    "@xylit/ssg": "^0.0.1",
+    "lorem-ipsum": "^2.0.8",
+    "sass": "1.79.3"
+  }
+}
